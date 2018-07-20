@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "520358059306",
+    "firebase_url": "https://labapp-198319.firebaseio.com",
+    "project_id": "labapp-198319",
+    "storage_bucket": "labapp-198319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520358059306:android:3b229689220f5583",
+        "android_client_info": {
+          "package_name": "com.HomPiqRider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520358059306-aoq6dpaa285lhqd0q2v7sa79ro60euh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HomPiqRider",
+            "certificate_hash": "8fb18fa533df29ccdb4a045a5ba20a82a1126df7"
+          }
+        },
+        {
+          "client_id": "520358059306-p2e66k5hl2vkr5nnb15b4f1432sqigsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL9spFmhJHnLWM2kOiNMPCpmVzjEgira4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520358059306-p2e66k5hl2vkr5nnb15b4f1432sqigsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

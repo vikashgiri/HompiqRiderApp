@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/layoutProfile"
+    android:background="#ffffff"
+    android:orientation="vertical"
+   android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_add" />
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:background="@android:drawable/ic_menu_camera"
+    android:layout_above="@+id/btnSubmit"
+    android:layout_below="@+id/toolbar"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="OTP"
+        android:textColor="#fff"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/ic_rounded_edittext"
+        />
+    <ImageView
+        android:layout_below="@+id/otp"
+
+        android:id="@+id/user_profile_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/categories_select"
+        android:text="Upload"
+
+        android:layout_margin="10dp"
+        android:textColor="@color/bg_grey" />
+</RelativeLayout>
+</layout>
